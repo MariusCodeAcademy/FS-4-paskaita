@@ -1,4 +1,7 @@
 /* Globals */
+p {
+  margin: 0;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -30,19 +33,24 @@ body {
 }
 .submenu-heading {
   color: white;
+  padding: 15px;
 }
 .submenu {
   position: absolute;
   background-color: white;
   color: black;
-  max-width: 140px;
+  width: 140px;
   border-radius: 10px;
+  /* atsirandantis meniu kairiau */
+  left: -100px;
+  top: 54px;
   /* pasleptas is pradziu */
   display: none;
 }
 /* kai uzvedu pelyte and submenu-container
 parodyti submeniu elmeneta  */
-.submenu-container:hover .submenu {
+.submenu-container:hover .submenu,
+.submenu-heading:hover ~ .submenu {
   display: block;
 }
 .submenu a {
