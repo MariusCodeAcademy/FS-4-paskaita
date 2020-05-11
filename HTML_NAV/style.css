@@ -7,6 +7,8 @@ body {
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
+  min-height: 100vh;
+  background-color: darkgray;
 }
 /* Navigacija */
 .main-nav {
@@ -15,4 +17,12 @@ body {
 }
 .nav-items {
   float: right;
+}
+/* atstumiu el vienus nuo kitu */
+.main-nav a {
+  padding: 15px;
+  display: inline-block;
+}
+.submenu-item {
+  color: white;
 }
