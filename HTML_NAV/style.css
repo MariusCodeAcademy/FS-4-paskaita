@@ -1,0 +1,18 @@
+/* Globals */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+/* Navigacija */
+.main-nav {
+  background-color: black;
+  color: white;
+}
+.nav-items {
+  float: right;
+}
