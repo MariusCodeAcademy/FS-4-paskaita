@@ -23,6 +23,32 @@ body {
   padding: 15px;
   display: inline-block;
 }
-.submenu-item {
+/* kad bloko elementas neuzimtu viso plocio o tik tiek kiek pavadinmas */
+.submenu-container {
+  display: inline-block;
+  position: relative;
+}
+.submenu-heading {
   color: white;
+}
+.submenu {
+  position: absolute;
+  background-color: white;
+  color: black;
+  max-width: 140px;
+  border-radius: 10px;
+  /* pasleptas is pradziu */
+  display: none;
+}
+/* kai uzvedu pelyte and submenu-container
+parodyti submeniu elmeneta  */
+.submenu-container:hover .submenu {
+  display: block;
+}
+.submenu a {
+  display: block;
+}
+/* Submeniu ensancias nuorodas kai uzvedam pelyte */
+.submenu a:hover {
+  background-color: tomato;
 }
